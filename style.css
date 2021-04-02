@@ -1,7 +1,15 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial; 
+  height:100%;
   padding: 0;
   margin: 0;
+  background-color: #000;
+  font-family: Arial;
+
 }
 
 a {text-decoration: none;}
@@ -14,11 +22,13 @@ a {text-decoration: none;}
 .row {  display: flex;   flex-direction: row;  flex-wrap: wrap;  width: 100%;}
 .col {  display: flex;  flex-direction: column;  flex-basis: 100%;  flex: 1;}
 
-/**/
+/* sections */
+
 .black { background: #000;  color: #fff; }
 .cyan {background: #56C6C2;}
 .black a {color: #fff;}
-/**/
+
+/* menus */
 .menu {
   padding: 48px 0px 24px 0px ;
   font-size: 20px;
@@ -33,7 +43,7 @@ a.logo {
   background-color: #56C6C2;
   padding: 8px 12px;
   border-radius: 4px;
-  color: #000;
+  color: #000000;
 }
 
 /* Display header */
@@ -51,5 +61,11 @@ h1.display {
 
 .place {
   margin-top: 30px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  padding-left: 30px;
+  border-radius: 6px;
+}
+
+.place h2, .place p {
+  color: #000000;
 }
