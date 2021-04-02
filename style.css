@@ -25,10 +25,15 @@ a {text-decoration: none;}
 /* sections */
 
 .black { background: #000;  color: #fff; }
-.cyan {background: #56C6C2;}
 .black a {color: #fff;}
 
+.cyan {
+  border-radius: 6px;
+  background: #56C6C2;
+}
+
 /* menus */
+
 .menu {
   padding: 48px 0px 24px 0px ;
   font-size: 20px;
@@ -63,7 +68,6 @@ h1.display {
   margin-top: 30px;
   margin-bottom: 50px;
   padding-left: 30px;
-  border-radius: 6px;
 }
 
 .place h2, .place p {
